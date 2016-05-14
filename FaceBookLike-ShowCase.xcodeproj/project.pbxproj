@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54FEB591CE704DE003F76FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB581CE704DE003F76FA /* main.m */; };
+		A54FEB5C1CE704DE003F76FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB5B1CE704DE003F76FA /* AppDelegate.m */; };
+		A54FEB5F1CE704DE003F76FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB5E1CE704DE003F76FA /* ViewController.m */; };
+		A54FEB621CE704DE003F76FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54FEB601CE704DE003F76FA /* Main.storyboard */; };
+		A54FEB641CE704DE003F76FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54FEB631CE704DE003F76FA /* Assets.xcassets */; };
+		A54FEB671CE704DE003F76FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54FEB651CE704DE003F76FA /* LaunchScreen.storyboard */; };
+		A54FEB721CE704DE003F76FA /* FaceBookLike_ShowCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB711CE704DE003F76FA /* FaceBookLike_ShowCaseTests.m */; };
+		A54FEB7D1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB7C1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54FEB6E1CE704DE003F76FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54FEB4C1CE704DE003F76FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54FEB531CE704DE003F76FA;
+			remoteInfo = "FaceBookLike-ShowCase";
+		};
+		A54FEB791CE704DE003F76FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54FEB4C1CE704DE003F76FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54FEB531CE704DE003F76FA;
+			remoteInfo = "FaceBookLike-ShowCase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A54FEB541CE704DE003F76FA /* FaceBookLike-ShowCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceBookLike-ShowCase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54FEB581CE704DE003F76FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54FEB5A1CE704DE003F76FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A54FEB5B1CE704DE003F76FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A54FEB5D1CE704DE003F76FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A54FEB5E1CE704DE003F76FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A54FEB611CE704DE003F76FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54FEB631CE704DE003F76FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54FEB661CE704DE003F76FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A54FEB681CE704DE003F76FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54FEB6D1CE704DE003F76FA /* FaceBookLike-ShowCaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceBookLike-ShowCaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54FEB711CE704DE003F76FA /* FaceBookLike_ShowCaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookLike_ShowCaseTests.m; sourceTree = "<group>"; };
+		A54FEB731CE704DE003F76FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54FEB781CE704DE003F76FA /* FaceBookLike-ShowCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceBookLike-ShowCaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54FEB7C1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookLike_ShowCaseUITests.m; sourceTree = "<group>"; };
+		A54FEB7E1CE704DE003F76FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54FEB511CE704DE003F76FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54FEB6A1CE704DE003F76FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54FEB751CE704DE003F76FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54FEB4B1CE704DE003F76FA = {
+			isa = PBXGroup;
+			children = (
+				A54FEB561CE704DE003F76FA /* FaceBookLike-ShowCase */,
+				A54FEB701CE704DE003F76FA /* FaceBookLike-ShowCaseTests */,
+				A54FEB7B1CE704DE003F76FA /* FaceBookLike-ShowCaseUITests */,
+				A54FEB551CE704DE003F76FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54FEB551CE704DE003F76FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54FEB541CE704DE003F76FA /* FaceBookLike-ShowCase.app */,
+				A54FEB6D1CE704DE003F76FA /* FaceBookLike-ShowCaseTests.xctest */,
+				A54FEB781CE704DE003F76FA /* FaceBookLike-ShowCaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54FEB561CE704DE003F76FA /* FaceBookLike-ShowCase */ = {
+			isa = PBXGroup;
+			children = (
+				A54FEB5A1CE704DE003F76FA /* AppDelegate.h */,
+				A54FEB5B1CE704DE003F76FA /* AppDelegate.m */,
+				A54FEB5D1CE704DE003F76FA /* ViewController.h */,
+				A54FEB5E1CE704DE003F76FA /* ViewController.m */,
+				A54FEB601CE704DE003F76FA /* Main.storyboard */,
+				A54FEB631CE704DE003F76FA /* Assets.xcassets */,
+				A54FEB651CE704DE003F76FA /* LaunchScreen.storyboard */,
+				A54FEB681CE704DE003F76FA /* Info.plist */,
+				A54FEB571CE704DE003F76FA /* Supporting Files */,
+			);
+			path = "FaceBookLike-ShowCase";
+			sourceTree = "<group>";
+		};
+		A54FEB571CE704DE003F76FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54FEB581CE704DE003F76FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A54FEB701CE704DE003F76FA /* FaceBookLike-ShowCaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A54FEB711CE704DE003F76FA /* FaceBookLike_ShowCaseTests.m */,
+				A54FEB731CE704DE003F76FA /* Info.plist */,
+			);
+			path = "FaceBookLike-ShowCaseTests";
+			sourceTree = "<group>";
+		};
+		A54FEB7B1CE704DE003F76FA /* FaceBookLike-ShowCaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A54FEB7C1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m */,
+				A54FEB7E1CE704DE003F76FA /* Info.plist */,
+			);
+			path = "FaceBookLike-ShowCaseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54FEB531CE704DE003F76FA /* FaceBookLike-ShowCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54FEB811CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCase" */;
+			buildPhases = (
+				A54FEB501CE704DE003F76FA /* Sources */,
+				A54FEB511CE704DE003F76FA /* Frameworks */,
+				A54FEB521CE704DE003F76FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FaceBookLike-ShowCase";
+			productName = "FaceBookLike-ShowCase";
+			productReference = A54FEB541CE704DE003F76FA /* FaceBookLike-ShowCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54FEB6C1CE704DE003F76FA /* FaceBookLike-ShowCaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54FEB841CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCaseTests" */;
+			buildPhases = (
+				A54FEB691CE704DE003F76FA /* Sources */,
+				A54FEB6A1CE704DE003F76FA /* Frameworks */,
+				A54FEB6B1CE704DE003F76FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54FEB6F1CE704DE003F76FA /* PBXTargetDependency */,
+			);
+			name = "FaceBookLike-ShowCaseTests";
+			productName = "FaceBookLike-ShowCaseTests";
+			productReference = A54FEB6D1CE704DE003F76FA /* FaceBookLike-ShowCaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A54FEB771CE704DE003F76FA /* FaceBookLike-ShowCaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54FEB871CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCaseUITests" */;
+			buildPhases = (
+				A54FEB741CE704DE003F76FA /* Sources */,
+				A54FEB751CE704DE003F76FA /* Frameworks */,
+				A54FEB761CE704DE003F76FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54FEB7A1CE704DE003F76FA /* PBXTargetDependency */,
+			);
+			name = "FaceBookLike-ShowCaseUITests";
+			productName = "FaceBookLike-ShowCaseUITests";
+			productReference = A54FEB781CE704DE003F76FA /* FaceBookLike-ShowCaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54FEB4C1CE704DE003F76FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "cyrus refahi";
+				TargetAttributes = {
+					A54FEB531CE704DE003F76FA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A54FEB6C1CE704DE003F76FA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A54FEB531CE704DE003F76FA;
+					};
+					A54FEB771CE704DE003F76FA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A54FEB531CE704DE003F76FA;
+					};
+				};
+			};
+			buildConfigurationList = A54FEB4F1CE704DE003F76FA /* Build configuration list for PBXProject "FaceBookLike-ShowCase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54FEB4B1CE704DE003F76FA;
+			productRefGroup = A54FEB551CE704DE003F76FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54FEB531CE704DE003F76FA /* FaceBookLike-ShowCase */,
+				A54FEB6C1CE704DE003F76FA /* FaceBookLike-ShowCaseTests */,
+				A54FEB771CE704DE003F76FA /* FaceBookLike-ShowCaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54FEB521CE704DE003F76FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54FEB671CE704DE003F76FA /* LaunchScreen.storyboard in Resources */,
+				A54FEB641CE704DE003F76FA /* Assets.xcassets in Resources */,
+				A54FEB621CE704DE003F76FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54FEB6B1CE704DE003F76FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54FEB761CE704DE003F76FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54FEB501CE704DE003F76FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54FEB5F1CE704DE003F76FA /* ViewController.m in Sources */,
+				A54FEB5C1CE704DE003F76FA /* AppDelegate.m in Sources */,
+				A54FEB591CE704DE003F76FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54FEB691CE704DE003F76FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54FEB721CE704DE003F76FA /* FaceBookLike_ShowCaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54FEB741CE704DE003F76FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54FEB7D1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54FEB6F1CE704DE003F76FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54FEB531CE704DE003F76FA /* FaceBookLike-ShowCase */;
+			targetProxy = A54FEB6E1CE704DE003F76FA /* PBXContainerItemProxy */;
+		};
+		A54FEB7A1CE704DE003F76FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54FEB531CE704DE003F76FA /* FaceBookLike-ShowCase */;
+			targetProxy = A54FEB791CE704DE003F76FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A54FEB601CE704DE003F76FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54FEB611CE704DE003F76FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A54FEB651CE704DE003F76FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54FEB661CE704DE003F76FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54FEB7F1CE704DE003F76FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A54FEB801CE704DE003F76FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54FEB821CE704DE003F76FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FaceBookLike-ShowCase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrus-refai.FaceBookLike-ShowCase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A54FEB831CE704DE003F76FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FaceBookLike-ShowCase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrus-refai.FaceBookLike-ShowCase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A54FEB851CE704DE003F76FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FaceBookLike-ShowCaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrus-refai.FaceBookLike-ShowCaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookLike-ShowCase.app/FaceBookLike-ShowCase";
+			};
+			name = Debug;
+		};
+		A54FEB861CE704DE003F76FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FaceBookLike-ShowCaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrus-refai.FaceBookLike-ShowCaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookLike-ShowCase.app/FaceBookLike-ShowCase";
+			};
+			name = Release;
+		};
+		A54FEB881CE704DE003F76FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FaceBookLike-ShowCaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrus-refai.FaceBookLike-ShowCaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FaceBookLike-ShowCase";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A54FEB891CE704DE003F76FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FaceBookLike-ShowCaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrus-refai.FaceBookLike-ShowCaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FaceBookLike-ShowCase";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54FEB4F1CE704DE003F76FA /* Build configuration list for PBXProject "FaceBookLike-ShowCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54FEB7F1CE704DE003F76FA /* Debug */,
+				A54FEB801CE704DE003F76FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54FEB811CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54FEB821CE704DE003F76FA /* Debug */,
+				A54FEB831CE704DE003F76FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A54FEB841CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54FEB851CE704DE003F76FA /* Debug */,
+				A54FEB861CE704DE003F76FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A54FEB871CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54FEB881CE704DE003F76FA /* Debug */,
+				A54FEB891CE704DE003F76FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54FEB4C1CE704DE003F76FA /* Project object */;
+}
