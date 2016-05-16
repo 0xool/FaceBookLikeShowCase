@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A543D9701CE9F78F00EA35A4 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96C1CE9F78F00EA35A4 /* NotoSans-Bold.ttf */; };
+		A543D9711CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96D1CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf */; };
+		A543D9721CE9F78F00EA35A4 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96E1CE9F78F00EA35A4 /* NotoSans-Italic.ttf */; };
+		A543D9731CE9F78F00EA35A4 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96F1CE9F78F00EA35A4 /* NotoSans-Regular.ttf */; };
+		A543D97A1CE9FA4100EA35A4 /* MaterialView.m in Sources */ = {isa = PBXBuildFile; fileRef = A543D9791CE9FA4100EA35A4 /* MaterialView.m */; };
+		A543D97E1CE9FAC700EA35A4 /* Constanrs.m in Sources */ = {isa = PBXBuildFile; fileRef = A543D97D1CE9FAC700EA35A4 /* Constanrs.m */; };
+		A543D9811CEA064200EA35A4 /* MaterialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A543D9801CEA064200EA35A4 /* MaterialButton.m */; };
+		A543D9841CEA0F6600EA35A4 /* MaterialTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A543D9831CEA0F6600EA35A4 /* MaterialTextField.m */; };
 		A54FEB591CE704DE003F76FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB581CE704DE003F76FA /* main.m */; };
 		A54FEB5C1CE704DE003F76FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB5B1CE704DE003F76FA /* AppDelegate.m */; };
 		A54FEB5F1CE704DE003F76FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB5E1CE704DE003F76FA /* ViewController.m */; };
@@ -35,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A543D96C1CE9F78F00EA35A4 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		A543D96D1CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A543D96E1CE9F78F00EA35A4 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		A543D96F1CE9F78F00EA35A4 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A543D9781CE9FA4100EA35A4 /* MaterialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialView.h; sourceTree = "<group>"; };
+		A543D9791CE9FA4100EA35A4 /* MaterialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialView.m; sourceTree = "<group>"; };
+		A543D97C1CE9FAC700EA35A4 /* Constanrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constanrs.h; sourceTree = "<group>"; };
+		A543D97D1CE9FAC700EA35A4 /* Constanrs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constanrs.m; sourceTree = "<group>"; };
+		A543D97F1CEA064200EA35A4 /* MaterialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialButton.h; sourceTree = "<group>"; };
+		A543D9801CEA064200EA35A4 /* MaterialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialButton.m; sourceTree = "<group>"; };
+		A543D9821CEA0F6600EA35A4 /* MaterialTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialTextField.h; sourceTree = "<group>"; };
+		A543D9831CEA0F6600EA35A4 /* MaterialTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialTextField.m; sourceTree = "<group>"; };
 		A54FEB541CE704DE003F76FA /* FaceBookLike-ShowCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceBookLike-ShowCase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54FEB581CE704DE003F76FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A54FEB5A1CE704DE003F76FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +98,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A543D9741CE9F79A00EA35A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A543D96C1CE9F78F00EA35A4 /* NotoSans-Bold.ttf */,
+				A543D96D1CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf */,
+				A543D96E1CE9F78F00EA35A4 /* NotoSans-Italic.ttf */,
+				A543D96F1CE9F78F00EA35A4 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A543D9751CE9F7FA00EA35A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A543D9761CE9F80600EA35A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A543D9771CE9F81400EA35A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A54FEB5D1CE704DE003F76FA /* ViewController.h */,
+				A54FEB5E1CE704DE003F76FA /* ViewController.m */,
+				A543D9781CE9FA4100EA35A4 /* MaterialView.h */,
+				A543D9791CE9FA4100EA35A4 /* MaterialView.m */,
+				A543D97F1CEA064200EA35A4 /* MaterialButton.h */,
+				A543D9801CEA064200EA35A4 /* MaterialButton.m */,
+				A543D9821CEA0F6600EA35A4 /* MaterialTextField.h */,
+				A543D9831CEA0F6600EA35A4 /* MaterialTextField.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A543D97B1CE9FA9500EA35A4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A543D97C1CE9FAC700EA35A4 /* Constanrs.h */,
+				A543D97D1CE9FAC700EA35A4 /* Constanrs.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		A54FEB4B1CE704DE003F76FA = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +170,13 @@
 		A54FEB561CE704DE003F76FA /* FaceBookLike-ShowCase */ = {
 			isa = PBXGroup;
 			children = (
+				A543D97B1CE9FA9500EA35A4 /* Util */,
+				A543D9771CE9F81400EA35A4 /* View */,
+				A543D9761CE9F80600EA35A4 /* Controller */,
+				A543D9751CE9F7FA00EA35A4 /* Model */,
+				A543D9741CE9F79A00EA35A4 /* Resources */,
 				A54FEB5A1CE704DE003F76FA /* AppDelegate.h */,
 				A54FEB5B1CE704DE003F76FA /* AppDelegate.m */,
-				A54FEB5D1CE704DE003F76FA /* ViewController.h */,
-				A54FEB5E1CE704DE003F76FA /* ViewController.m */,
 				A54FEB601CE704DE003F76FA /* Main.storyboard */,
 				A54FEB631CE704DE003F76FA /* Assets.xcassets */,
 				A54FEB651CE704DE003F76FA /* LaunchScreen.storyboard */,
@@ -243,9 +315,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A543D9701CE9F78F00EA35A4 /* NotoSans-Bold.ttf in Resources */,
 				A54FEB671CE704DE003F76FA /* LaunchScreen.storyboard in Resources */,
+				A543D9711CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf in Resources */,
+				A543D9721CE9F78F00EA35A4 /* NotoSans-Italic.ttf in Resources */,
 				A54FEB641CE704DE003F76FA /* Assets.xcassets in Resources */,
 				A54FEB621CE704DE003F76FA /* Main.storyboard in Resources */,
+				A543D9731CE9F78F00EA35A4 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +347,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54FEB5F1CE704DE003F76FA /* ViewController.m in Sources */,
+				A543D97E1CE9FAC700EA35A4 /* Constanrs.m in Sources */,
 				A54FEB5C1CE704DE003F76FA /* AppDelegate.m in Sources */,
+				A543D9841CEA0F6600EA35A4 /* MaterialTextField.m in Sources */,
 				A54FEB591CE704DE003F76FA /* main.m in Sources */,
+				A543D9811CEA064200EA35A4 /* MaterialButton.m in Sources */,
+				A543D97A1CE9FA4100EA35A4 /* MaterialView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +578,7 @@
 				A54FEB831CE704DE003F76FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A54FEB841CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCaseTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +587,7 @@
 				A54FEB861CE704DE003F76FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A54FEB871CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +596,7 @@
 				A54FEB891CE704DE003F76FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
