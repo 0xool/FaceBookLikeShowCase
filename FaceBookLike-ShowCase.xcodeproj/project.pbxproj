@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8796CFAB3EEE61043943E983 /* Pods_FaceBookLike_ShowCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50FE5C29E0C308706BB7280 /* Pods_FaceBookLike_ShowCase.framework */; };
+		A52B20991CEC76BE00A2BC95 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B20961CEC76BE00A2BC95 /* Bolts.framework */; };
+		A52B209A1CEC76BE00A2BC95 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B20971CEC76BE00A2BC95 /* FBSDKCoreKit.framework */; };
+		A52B209B1CEC76BE00A2BC95 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B20981CEC76BE00A2BC95 /* FBSDKLoginKit.framework */; };
+		A535142E1CEDA46700CD7CC4 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = A535142D1CEDA46700CD7CC4 /* DataService.m */; };
 		A543D9701CE9F78F00EA35A4 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96C1CE9F78F00EA35A4 /* NotoSans-Bold.ttf */; };
 		A543D9711CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96D1CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf */; };
 		A543D9721CE9F78F00EA35A4 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96E1CE9F78F00EA35A4 /* NotoSans-Italic.ttf */; };
@@ -43,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79DEA2724A0C83BCACA71027 /* Pods-FaceBookLike-ShowCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookLike-ShowCase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookLike-ShowCase/Pods-FaceBookLike-ShowCase.debug.xcconfig"; sourceTree = "<group>"; };
+		9C6968AAA6D55830910760AE /* Pods-FaceBookLike-ShowCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookLike-ShowCase.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookLike-ShowCase/Pods-FaceBookLike-ShowCase.release.xcconfig"; sourceTree = "<group>"; };
+		A52B20961CEC76BE00A2BC95 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A52B20971CEC76BE00A2BC95 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A52B20981CEC76BE00A2BC95 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A535142C1CEDA46700CD7CC4 /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
+		A535142D1CEDA46700CD7CC4 /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
 		A543D96C1CE9F78F00EA35A4 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		A543D96D1CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		A543D96E1CE9F78F00EA35A4 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -71,6 +83,7 @@
 		A54FEB781CE704DE003F76FA /* FaceBookLike-ShowCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceBookLike-ShowCaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54FEB7C1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookLike_ShowCaseUITests.m; sourceTree = "<group>"; };
 		A54FEB7E1CE704DE003F76FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50FE5C29E0C308706BB7280 /* Pods_FaceBookLike_ShowCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceBookLike_ShowCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52B20991CEC76BE00A2BC95 /* Bolts.framework in Frameworks */,
+				A52B209A1CEC76BE00A2BC95 /* FBSDKCoreKit.framework in Frameworks */,
+				A52B209B1CEC76BE00A2BC95 /* FBSDKLoginKit.framework in Frameworks */,
+				8796CFAB3EEE61043943E983 /* Pods_FaceBookLike_ShowCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +115,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7976DD75D469A54F5BA60897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50FE5C29E0C308706BB7280 /* Pods_FaceBookLike_ShowCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A52B209C1CEC76C300A2BC95 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				A52B20961CEC76BE00A2BC95 /* Bolts.framework */,
+				A52B20971CEC76BE00A2BC95 /* FBSDKCoreKit.framework */,
+				A52B20981CEC76BE00A2BC95 /* FBSDKLoginKit.framework */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+		A535142B1CEDA44900CD7CC4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A535142C1CEDA46700CD7CC4 /* DataService.h */,
+				A535142D1CEDA46700CD7CC4 /* DataService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		A543D9741CE9F79A00EA35A4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +163,8 @@
 		A543D9761CE9F80600EA35A4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A54FEB5D1CE704DE003F76FA /* ViewController.h */,
+				A54FEB5E1CE704DE003F76FA /* ViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -126,8 +172,6 @@
 		A543D9771CE9F81400EA35A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A54FEB5D1CE704DE003F76FA /* ViewController.h */,
-				A54FEB5E1CE704DE003F76FA /* ViewController.m */,
 				A543D9781CE9FA4100EA35A4 /* MaterialView.h */,
 				A543D9791CE9FA4100EA35A4 /* MaterialView.m */,
 				A543D97F1CEA064200EA35A4 /* MaterialButton.h */,
@@ -154,6 +198,8 @@
 				A54FEB701CE704DE003F76FA /* FaceBookLike-ShowCaseTests */,
 				A54FEB7B1CE704DE003F76FA /* FaceBookLike-ShowCaseUITests */,
 				A54FEB551CE704DE003F76FA /* Products */,
+				FFD9B53328051567B0CA2A50 /* Pods */,
+				7976DD75D469A54F5BA60897 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +216,8 @@
 		A54FEB561CE704DE003F76FA /* FaceBookLike-ShowCase */ = {
 			isa = PBXGroup;
 			children = (
+				A535142B1CEDA44900CD7CC4 /* Services */,
+				A52B209C1CEC76C300A2BC95 /* FrameWork */,
 				A543D97B1CE9FA9500EA35A4 /* Util */,
 				A543D9771CE9F81400EA35A4 /* View */,
 				A543D9761CE9F80600EA35A4 /* Controller */,
@@ -212,6 +260,15 @@
 			path = "FaceBookLike-ShowCaseUITests";
 			sourceTree = "<group>";
 		};
+		FFD9B53328051567B0CA2A50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79DEA2724A0C83BCACA71027 /* Pods-FaceBookLike-ShowCase.debug.xcconfig */,
+				9C6968AAA6D55830910760AE /* Pods-FaceBookLike-ShowCase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54FEB811CE704DE003F76FA /* Build configuration list for PBXNativeTarget "FaceBookLike-ShowCase" */;
 			buildPhases = (
+				970AC056ABC4FB30CD847CB5 /* Check Pods Manifest.lock */,
 				A54FEB501CE704DE003F76FA /* Sources */,
 				A54FEB511CE704DE003F76FA /* Frameworks */,
 				A54FEB521CE704DE003F76FA /* Resources */,
+				242A922B83567C784D02DEBB /* Embed Pods Frameworks */,
+				4F8AE91C11D30161620CFF55 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,6 +401,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		242A922B83567C784D02DEBB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookLike-ShowCase/Pods-FaceBookLike-ShowCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8AE91C11D30161620CFF55 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookLike-ShowCase/Pods-FaceBookLike-ShowCase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970AC056ABC4FB30CD847CB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A54FEB501CE704DE003F76FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -349,6 +457,7 @@
 				A54FEB5F1CE704DE003F76FA /* ViewController.m in Sources */,
 				A543D97E1CE9FAC700EA35A4 /* Constanrs.m in Sources */,
 				A54FEB5C1CE704DE003F76FA /* AppDelegate.m in Sources */,
+				A535142E1CEDA46700CD7CC4 /* DataService.m in Sources */,
 				A543D9841CEA0F6600EA35A4 /* MaterialTextField.m in Sources */,
 				A54FEB591CE704DE003F76FA /* main.m in Sources */,
 				A543D9811CEA064200EA35A4 /* MaterialButton.m in Sources */,
@@ -491,8 +600,13 @@
 		};
 		A54FEB821CE704DE003F76FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79DEA2724A0C83BCACA71027 /* Pods-FaceBookLike-ShowCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookLike-ShowCase",
+				);
 				INFOPLIST_FILE = "FaceBookLike-ShowCase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cyrus-refai.FaceBookLike-ShowCase";
@@ -502,8 +616,13 @@
 		};
 		A54FEB831CE704DE003F76FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6968AAA6D55830910760AE /* Pods-FaceBookLike-ShowCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookLike-ShowCase",
+				);
 				INFOPLIST_FILE = "FaceBookLike-ShowCase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cyrus-refai.FaceBookLike-ShowCase";

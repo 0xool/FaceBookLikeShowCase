@@ -88,7 +88,7 @@
                                                 </variation>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4B-kU-y0P" customClass="MaterialButton">
-                                                <rect key="frame" x="115" y="38" width="405" height="33"/>
+                                                <rect key="frame" x="115" y="39" width="405" height="30"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="140" id="mri-Iy-nUC"/>
@@ -104,6 +104,9 @@
                                                         <exclude reference="owq-jF-1rI"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="fbBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d9X-ut-Bo0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

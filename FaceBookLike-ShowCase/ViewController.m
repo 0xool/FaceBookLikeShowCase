@@ -24,4 +24,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)fbBtnPressed:(id)sender {
+    
+    FBSDKLoginManager *lm = [[FBSDKLoginManager alloc]init];
+    [lm logInWithReadPermissions:@[@"email"] handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+      if(error != nil){
+
+      }else {
+          
+          NSString *accessTocken = [[FBSDKAccessToken currentAccessToken] tokenString ];
+          NSLog(@"YAAAAAAAY");
+          
+      }
+          
+  }];
+}
 @end

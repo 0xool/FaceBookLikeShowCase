@@ -1,0 +1,6 @@
+framework module Pods_FaceBookLike_ShowCase {
+  umbrella header "Pods-FaceBookLike-ShowCase-umbrella.h"
+
+  export *
+  module * { export * }
+}
