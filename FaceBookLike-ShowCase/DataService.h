@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Firebase.h"
 
 @interface DataService : NSObject
 
 + (DataService *)dataService;
 
+@property  Firebase* _REF_BASE;
 
 @end

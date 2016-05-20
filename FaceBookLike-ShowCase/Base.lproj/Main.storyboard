@@ -87,8 +87,8 @@
                                                     </mask>
                                                 </variation>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4B-kU-y0P" customClass="MaterialButton">
-                                                <rect key="frame" x="115" y="39" width="405" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4B-kU-y0P" customClass="MaterialButton">
+                                                <rect key="frame" x="115" y="38" width="405" height="33"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="140" id="mri-Iy-nUC"/>
@@ -145,9 +145,9 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="egv-fa-ojq"/>
                                         </constraints>
-                                        <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pgA-AH-Lgm" customClass="MaterialTextField">
                                         <rect key="frame" x="8" y="101" width="544" height="30"/>
@@ -157,7 +157,7 @@
                                         </constraints>
                                         <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wj-43-jnp" customClass="MaterialButton">
                                         <rect key="frame" x="180" y="151" width="200" height="33"/>
@@ -178,6 +178,9 @@
                                                 <exclude reference="TAK-2w-y4j"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="emailBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e3P-u3-lAh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -219,10 +222,56 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="EmailAddress" destination="rQM-2A-Zbs" id="X3o-lm-tbF"/>
+                        <outlet property="Password" destination="pgA-AH-Lgm" id="rN4-GK-DgK"/>
+                        <segue destination="UP4-Nx-4oD" kind="show" identifier="loggedIN" id="Krb-uF-82v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="499" y="460"/>
+        </scene>
+        <!--FeeVC-->
+        <scene sceneID="vqs-9a-fcT">
+            <objects>
+                <viewController id="X69-ra-Avq" customClass="feeVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Zp-LC-wCH"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZVp-v9-ui3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jqe-nU-wB2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bAC-M5-Dgq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uxH-FT-7Ns" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2865" y="460"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Cuv-Lu-8Gq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UP4-Nx-4oD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1RO-aL-CLa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.98039215686274506" green="0.0" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="X69-ra-Avq" kind="relationship" relationship="rootViewController" id="edj-3Q-G1i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G2B-mC-8BC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2053" y="460"/>
         </scene>
     </scenes>
     <resources>

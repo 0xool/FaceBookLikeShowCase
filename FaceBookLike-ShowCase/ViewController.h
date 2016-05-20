@@ -13,6 +13,9 @@
 @interface ViewController : UIViewController
 
 - (IBAction)fbBtnPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *EmailAddress;
+@property (weak, nonatomic) IBOutlet UITextField *Password;
+- (IBAction)emailBtnPressed:(id)sender;
 
 @end
 

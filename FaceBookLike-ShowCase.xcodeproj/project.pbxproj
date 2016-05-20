@@ -12,6 +12,8 @@
 		A52B209A1CEC76BE00A2BC95 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B20971CEC76BE00A2BC95 /* FBSDKCoreKit.framework */; };
 		A52B209B1CEC76BE00A2BC95 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B20981CEC76BE00A2BC95 /* FBSDKLoginKit.framework */; };
 		A535142E1CEDA46700CD7CC4 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = A535142D1CEDA46700CD7CC4 /* DataService.m */; };
+		A53514311CEDC30600CD7CC4 /* feeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A53514301CEDC30600CD7CC4 /* feeVC.m */; };
+		A53514341CEDC45500CD7CC4 /* postCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A53514331CEDC45500CD7CC4 /* postCell.m */; };
 		A543D9701CE9F78F00EA35A4 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96C1CE9F78F00EA35A4 /* NotoSans-Bold.ttf */; };
 		A543D9711CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96D1CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf */; };
 		A543D9721CE9F78F00EA35A4 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A543D96E1CE9F78F00EA35A4 /* NotoSans-Italic.ttf */; };
@@ -55,6 +57,10 @@
 		A52B20981CEC76BE00A2BC95 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		A535142C1CEDA46700CD7CC4 /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
 		A535142D1CEDA46700CD7CC4 /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
+		A535142F1CEDC30600CD7CC4 /* feeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feeVC.h; sourceTree = "<group>"; };
+		A53514301CEDC30600CD7CC4 /* feeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feeVC.m; sourceTree = "<group>"; };
+		A53514321CEDC45500CD7CC4 /* postCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postCell.h; sourceTree = "<group>"; };
+		A53514331CEDC45500CD7CC4 /* postCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = postCell.m; sourceTree = "<group>"; };
 		A543D96C1CE9F78F00EA35A4 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		A543D96D1CE9F78F00EA35A4 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		A543D96E1CE9F78F00EA35A4 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -165,6 +171,8 @@
 			children = (
 				A54FEB5D1CE704DE003F76FA /* ViewController.h */,
 				A54FEB5E1CE704DE003F76FA /* ViewController.m */,
+				A535142F1CEDC30600CD7CC4 /* feeVC.h */,
+				A53514301CEDC30600CD7CC4 /* feeVC.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -178,6 +186,8 @@
 				A543D9801CEA064200EA35A4 /* MaterialButton.m */,
 				A543D9821CEA0F6600EA35A4 /* MaterialTextField.h */,
 				A543D9831CEA0F6600EA35A4 /* MaterialTextField.m */,
+				A53514321CEDC45500CD7CC4 /* postCell.h */,
+				A53514331CEDC45500CD7CC4 /* postCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -455,11 +465,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54FEB5F1CE704DE003F76FA /* ViewController.m in Sources */,
+				A53514341CEDC45500CD7CC4 /* postCell.m in Sources */,
 				A543D97E1CE9FAC700EA35A4 /* Constanrs.m in Sources */,
 				A54FEB5C1CE704DE003F76FA /* AppDelegate.m in Sources */,
 				A535142E1CEDA46700CD7CC4 /* DataService.m in Sources */,
 				A543D9841CEA0F6600EA35A4 /* MaterialTextField.m in Sources */,
 				A54FEB591CE704DE003F76FA /* main.m in Sources */,
+				A53514311CEDC30600CD7CC4 /* feeVC.m in Sources */,
 				A543D9811CEA064200EA35A4 /* MaterialButton.m in Sources */,
 				A543D97A1CE9FA4100EA35A4 /* MaterialView.m in Sources */,
 			);

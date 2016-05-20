@@ -11,7 +11,7 @@
 
 @implementation DataService
 {
-    NSString *_REF_BASE;
+
 }
 
 static DataService *dataServices = nil;
@@ -25,7 +25,7 @@ static DataService *dataServices = nil;
 
 - (id)init {
     if (self = [super init]) {
-
+        self._REF_BASE = [[Firebase alloc]initWithUrl:@"facebooklike-showcase.firebaseio.com"];
     }
     return self;
 }
