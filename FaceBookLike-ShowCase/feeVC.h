@@ -10,6 +10,8 @@
 
 @interface feeVC : ViewController <UITableViewDataSource , UITabBarDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property  NSMutableArray *Posts;
+
 
 
 @end

@@ -234,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="499" y="460"/>
+            <point key="canvasLocation" x="1369" y="460"/>
         </scene>
         <!--FeeVC-->
         <scene sceneID="vqs-9a-fcT">
@@ -281,7 +281,7 @@
                                                                                 <constraint firstAttribute="width" constant="200" id="Xj1-mW-Ufo"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="17"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart-empty" translatesAutoresizingMaskIntoConstraints="NO" id="6yj-zN-liI">
@@ -297,7 +297,7 @@
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQV-hG-Puz">
                                                                                     <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
                                                                                     <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="17"/>
-                                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gli-ds-h7E">
@@ -356,6 +356,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="Desc" destination="Zcf-qO-sm9" id="f0l-k6-qKM"/>
+                                            <outlet property="Likes" destination="lQV-hG-Puz" id="L9S-Yw-dnP"/>
                                             <outlet property="profileIamge" destination="EKK-gd-BXR" id="b7W-iv-CpU"/>
                                             <outlet property="showCaseImage" destination="WDk-K0-9aA" id="6t4-Gk-Bzo"/>
                                         </connections>
@@ -388,7 +390,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1RO-aL-CLa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.98039215686274506" green="0.0" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.98431372549019602" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -400,7 +402,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2B-mC-8BC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2053" y="460"/>
+            <point key="canvasLocation" x="2045" y="460"/>
         </scene>
     </scenes>
     <resources>

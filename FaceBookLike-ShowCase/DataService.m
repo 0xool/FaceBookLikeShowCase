@@ -26,8 +26,18 @@ static DataService *dataServices = nil;
 - (id)init {
     if (self = [super init]) {
         self._REF_BASE = [[Firebase alloc]initWithUrl:@"facebooklike-showcase.firebaseio.com"];
+        self._REF_POSTS = [[Firebase alloc]initWithUrl:@"facebooklike-showcase.firebaseio.com/posts"];
+        self._REF_USERS = [[Firebase alloc]initWithUrl:@"facebooklike-showcase.firebaseio.com/users"];
     }
     return self;
+}
+
+
+-(void)createFireBaseUserWithUID : (NSString*) uid WithUserDictionary : (NSMutableDictionary<NSString* , NSString* >*) user{
+    
+    [[self._REF_USERS childByAppendingPath:uid] setValue:user];
+    
+    
 }
 
 

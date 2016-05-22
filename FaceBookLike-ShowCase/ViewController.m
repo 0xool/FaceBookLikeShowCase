@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,10 +27,11 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-    
-   NSObject* key = [[NSUserDefaults standardUserDefaults] valueForKey:@"uid"];
+    [super viewDidAppear:YES];
+    NSObject* key = [[NSUserDefaults standardUserDefaults] valueForKey:@"uid"];
     if (key != nil) {
-        [self performSegueWithIdentifier:@"loggedIN" sender:nil];
+        [self  performSegueWithIdentifier:@"loggedIN" sender:nil];
+        NSLog(@"segue %@", @"performed");
     }
     
 }
@@ -51,6 +53,11 @@
                   NSLog(@"Found Error");
                   
               }else{
+                  
+                  NSMutableDictionary<NSString* , NSString* > *user = [[NSMutableDictionary<NSString* , NSString* > alloc]init];
+                [user setObject:authData.provider forKey:@"provider"];
+  //                user[@"provider"] = authData.provider;
+                  [[DataService dataService] createFireBaseUserWithUID:authData.uid WithUserDictionary:user];
                   
                   [[NSUserDefaults standardUserDefaults] setValue:authData.uid   forKey:@"uid"];
                   [self performSegueWithIdentifier:@"loggedIN" sender:nil];
@@ -82,6 +89,12 @@
                         }else {
                             [[NSUserDefaults standardUserDefaults] setValue:result[@"uid"]   forKey:@"uid"];
                             [[[DataService dataService] _REF_BASE] authUser:email password:pass withCompletionBlock:^(NSError *error, FAuthData *authData) {
+                                
+                                NSMutableDictionary<NSString* , NSString* > *user = [[NSMutableDictionary<NSString* , NSString* > alloc]init];
+                                [user setObject:authData.provider forKey:@"provider"];
+                                [user setObject:pass forKey:@"password"];
+                                [user setObject:email forKey:@"username"];
+                                [[DataService dataService] createFireBaseUserWithUID:authData.uid WithUserDictionary:user];
                                 
                             }];
                             [self performSegueWithIdentifier:@"loggedIN" sender:nil];

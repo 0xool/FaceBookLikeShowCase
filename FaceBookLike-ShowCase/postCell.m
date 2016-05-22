@@ -29,4 +29,21 @@
     // Configure the view for the selected state
 }
 
+-(void)configureCellWithPost:(Post *)post{
+    
+    self.post = post;
+    
+    if(post.postDescription != nil && ![post.postDescription  isEqual: @""])
+        self.Desc.text = post.postDescription;
+    
+    if(post.likes != nil)
+        self.Likes.text = [NSString stringWithFormat:@"%d" , post.likes];
+    
+        
+        
+    
+    
+}
+
+
 @end

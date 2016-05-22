@@ -30,6 +30,7 @@
 		A54FEB671CE704DE003F76FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54FEB651CE704DE003F76FA /* LaunchScreen.storyboard */; };
 		A54FEB721CE704DE003F76FA /* FaceBookLike_ShowCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB711CE704DE003F76FA /* FaceBookLike_ShowCaseTests.m */; };
 		A54FEB7D1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FEB7C1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m */; };
+		A561FDB51CF1D5CD006010C9 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = A561FDB41CF1D5CC006010C9 /* Post.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		A54FEB781CE704DE003F76FA /* FaceBookLike-ShowCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceBookLike-ShowCaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54FEB7C1CE704DE003F76FA /* FaceBookLike_ShowCaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookLike_ShowCaseUITests.m; sourceTree = "<group>"; };
 		A54FEB7E1CE704DE003F76FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A561FDB31CF1D5CC006010C9 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		A561FDB41CF1D5CC006010C9 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		C50FE5C29E0C308706BB7280 /* Pods_FaceBookLike_ShowCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceBookLike_ShowCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -162,6 +165,8 @@
 		A543D9751CE9F7FA00EA35A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A561FDB31CF1D5CC006010C9 /* Post.h */,
+				A561FDB41CF1D5CC006010C9 /* Post.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -472,6 +477,7 @@
 				A543D9841CEA0F6600EA35A4 /* MaterialTextField.m in Sources */,
 				A54FEB591CE704DE003F76FA /* main.m in Sources */,
 				A53514311CEDC30600CD7CC4 /* feeVC.m in Sources */,
+				A561FDB51CF1D5CD006010C9 /* Post.m in Sources */,
 				A543D9811CEA064200EA35A4 /* MaterialButton.m in Sources */,
 				A543D97A1CE9FA4100EA35A4 /* MaterialView.m in Sources */,
 			);
