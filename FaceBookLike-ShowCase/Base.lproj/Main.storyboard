@@ -348,6 +348,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="vNt-UT-rg6" firstAttribute="top" secondItem="3vn-2V-A4A" secondAttribute="topMargin" id="ZWg-jE-gUj"/>
                                                 <constraint firstItem="vNt-UT-rg6" firstAttribute="leading" secondItem="3vn-2V-A4A" secondAttribute="leadingMargin" constant="-8" id="n2G-c3-rOl"/>
@@ -355,6 +356,7 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="vNt-UT-rg6" secondAttribute="trailing" constant="-8" id="xv9-1A-tP2"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="Desc" destination="Zcf-qO-sm9" id="f0l-k6-qKM"/>
                                             <outlet property="Likes" destination="lQV-hG-Puz" id="L9S-Yw-dnP"/>

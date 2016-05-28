@@ -28,9 +28,9 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:YES];
-    NSObject* key = [[NSUserDefaults standardUserDefaults] valueForKey:@"uid"];
+    NSUserDefaults  * key = [[NSUserDefaults standardUserDefaults] valueForKey:@"uid"];
     if (key != nil) {
-        [self  performSegueWithIdentifier:@"loggedIN" sender:nil];
+        [self  performSegueWithIdentifier:@"loggedIN" sender:self];
         NSLog(@"segue %@", @"performed");
     }
     
